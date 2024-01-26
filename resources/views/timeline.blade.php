@@ -164,7 +164,7 @@
                 <i class="fa fa-camera bg-purple"></i>
                 <div class="timeline-item">
                   <span class="time"><i class="fas fa-clock"></i> 2 days ago</span>
-                  <h3 class="timeline-header"><a href="#">{{ $galery->judul }}</a> uploaded new photos</h3>
+                  <h3 class="timeline-header"><a href="#">{{ $galery->judul }}</a> </h3>
                   <div class="timeline-body">
                       <p>{{ $galery->deskripsi }}</p>
                     <div class="row mb-3">
