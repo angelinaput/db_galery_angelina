@@ -169,7 +169,7 @@
                       <p>{{ $galery->deskripsi }}</p>
                     <div class="row mb-3">
                       <div class="col-sm-6">
-                        <img class="img-fluid" src="{{ asset('images/'.$galery->foto) }}" alt="Photo">
+                        <img width="200" height="200" class="img-fluid" src="{{ asset('images/'.$galery->foto) }}" alt="Photo">
                        </div>
                     </div>
                     <div class="timeline-footer col-sm-6">
